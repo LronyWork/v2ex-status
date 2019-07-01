@@ -3,4 +3,4 @@ os:
   - linux
 
 script:
-  - curl -v https://www.v2ex.com
+  - curl -v -silent --show-error --fail https://www.v2ex.com
